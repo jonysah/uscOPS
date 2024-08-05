@@ -1,0 +1,6 @@
+Name: uscops-api
+Host: 0.0.0.0
+Port: 8888
+Auth:
+  AccessSecret: 'jonysahhh'
+  AccessExpire: 600

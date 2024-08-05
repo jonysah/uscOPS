@@ -1,0 +1,11 @@
+import "./api/type.api"
+
+@server(
+	prefix: api/v1
+	group: User
+)
+service uscops-api {
+	@doc "登录"
+	@handler login
+	post /user/login (LoginReq) returns (LoginResp)
+}
